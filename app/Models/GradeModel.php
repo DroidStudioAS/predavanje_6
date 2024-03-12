@@ -9,6 +9,6 @@ class GradeModel extends Model
 {
     protected $table = "grades";
 
-    protected $fillable = ["subject","grade","professor"];
+    protected $fillable = ["user_id","subject","grade","professor"];
 
 }
